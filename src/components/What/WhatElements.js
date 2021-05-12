@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import WhatImg from '../../images/what-kom.jpeg';
+import WhatImg from '../../images/what-kom.png';
 
 export const WhatContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),

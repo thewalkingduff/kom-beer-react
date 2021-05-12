@@ -1,9 +1,9 @@
-import product1 from '../../images/products-kombucha/product-1.jpeg'
-import product2 from '../../images/products-kombucha/product-2.jpeg'
-import product3 from '../../images/products-kombucha/product-3.jpeg'
-import product4 from '../../images/products-kombucha/product-4.jpeg'
-import product5 from '../../images/products-kombucha/product-5.webp'
-import product6 from '../../images/products-kombucha/product-6.webp'
+import product1 from '../../images/products-kombucha/product-1.png'
+import product2 from '../../images/products-kombucha/product-2.png'
+import product3 from '../../images/products-kombucha/product-3.png'
+import product4 from '../../images/products-kombucha/product-4.png'
+import product5 from '../../images/products-kombucha/product-5.png'
+import product6 from '../../images/products-kombucha/product-6.png'
 
 export const productData = [
     {

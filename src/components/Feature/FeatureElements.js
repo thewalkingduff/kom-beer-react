@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import FeaturePic from '../../images/products-kombucha/product-4.jpeg'
+import FeaturePic from '../../images/products-kombucha/product-4.png'
 
 export const FeatureContainer = styled.div`
 background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(${FeaturePic});
