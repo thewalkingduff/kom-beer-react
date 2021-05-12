@@ -31,14 +31,6 @@ export const productData = [
         // button: 'Add to Cart'
     },
     {
-        img: product4,
-        alt: 'Kombucha',
-        name: 'Mango Madness',
-        desc: 'It’s our best balance yet⁠ of black tea with mango aromatics and then a punch of mango to seal the deal.',
-        // price: '$5.00',
-        button: 'Add to Cart'
-    },
-    {
         img: product5,
         alt: 'Kombucha',
         name: 'Tropic Rainbow',
@@ -53,5 +45,16 @@ export const productData = [
         desc: 'Our decaf tea that will transport you to a fruity red field of berries. Hibiscus Flowers from Maui infused with tart raspberries that are sure to please!',
         // price: '$5.00',
         // button: 'Add to Cart'
+    },
+]
+
+export const productData2 = [
+    {
+        img: product4,
+        alt: 'Kombucha',
+        name: 'Mango Madness',
+        desc: 'It’s our best balance yet⁠ of black tea with mango aromatics and then a punch of mango to seal the deal.',
+        // price: '$5.00',
+        button: 'Add to Cart'
     },
 ]
