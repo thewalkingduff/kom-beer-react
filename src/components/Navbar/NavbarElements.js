@@ -45,46 +45,44 @@ background-image: url(${LogoImg});
 // }
 // `;
 
-export const NavIcon = styled.div`
-display: block;
-position: absolute;
-font-size: clamp(1rem, 5vw, 2rem);
-top: 0;
-right: 0;
-cursor: pointer;
-color: #FAFAF0;
+// export const NavIcon = styled.div`
+// display: block;
+// position: absolute;
+// font-size: clamp(1rem, 5vw, 2rem);
+// top: 0;
+// right: 0;
+// cursor: pointer;
+// color: #FAFAF0;
 
-p {
-    transform: translate(-175%, 100%);
-    font-weight: bold;
-    
-    @media screen and (max-width: 768px) {
-display: none;
-}
-}
-`;
+// p {
+//     transform: translate(-175%, 100%);
+//     font-weight: bold;
+
+//     @media screen and (max-width: 768px) {
+// display: none;
+// }
+// }
+// `;
 
 export const Bars = styled(TiBeer)`
 /* font-size: 2rem; */
-font-size: clamp(2rem, 25vw, 3.5rem);
-transform: translate(-50%, -15%);
-color: #19FFD1;
-
-@media screen and (max-width: 768px) {
 display: block;
 position: absolute;
-font-size: clamp(1rem, 25vw, 2.75rem);
-margin-top: 2rem;
 top: 0;
 right: 0;
+cursor: pointer;
+font-size: clamp(2rem, 25vw, 3.5rem);
+color: #19FFD1;
+margin: 1.75rem 1.5rem 0 0;
+
+@media screen and (max-width: 768px) {
+font-size: clamp(1rem, 25vw, 2.75rem);
+margin: 1.50rem 1.25rem 0 0;
+
 }
 
 @media screen and (max-width: 480px) {
-display: block;
-position: absolute;
-font-size: clamp(1rem, 25vw, 2.15rem);
-margin-top: 2rem;
-top: 0;
-right: 0;
+font-size: clamp(1rem, 25vw, 2.25rem);
+margin: 1.35rem 1rem 0 0;
 }
 `;
