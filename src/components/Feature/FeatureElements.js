@@ -38,7 +38,8 @@ font-size: 1.4rem;
 padding: 0.6rem 3rem;
 border: none;
 background: #19FFD1;
-color: #000;
+color: #AA09B3;
+text-transform: uppercase;
 transition: 0.2s ease-out;
 
 &:hover {
