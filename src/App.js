@@ -11,18 +11,6 @@ import What from './components/What';
 import About from './components/About';
 import Contact from './components/Contact';
 
-
-// function App() {
-//   return (
-//     <Router>
-//       <GlobalStyle />
-//       <Hero />
-//       <Products heading='Our Flavors' data={productData} />
-//       <Feature />
-//       <Footer />
-//     </Router>
-//   );
-// }
 function App() {
   return (
     <main>
