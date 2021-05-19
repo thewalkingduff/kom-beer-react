@@ -1,6 +1,7 @@
 import { GlobalStyle } from '../../globalStyles';
 import React, { useState } from 'react';
 import {
+    WhatBenefits,
     WhatContainer, WhatContent, WhatDiv, WhatH1, WhatItems, WhatP
 } from './WhatElements';
 import Footer from '../Footer';
@@ -29,6 +30,7 @@ const What = () => {
                     </WhatP>
                     </WhatDiv>
                 </WhatItems>
+                <WhatBenefits />
             </WhatContent>
             <Footer />
         </WhatContainer>
