@@ -39,14 +39,15 @@ export const WhatItems = styled.div`
 
 export const WhatH1 = styled.h1`
 font-size: clamp(2.5rem, 10vw, 5rem);
-  margin: 5rem 4rem 0;
+  margin: 8rem 4rem 0;
   letter-spacing: 3px;
 /* font-size: 5rem; */
   color: #19FFD1;
   /* padding: 0 1.5rem; */
   @media screen and (max-width: 768px) {
-  margin: 3rem 2rem 2rem;
+  margin: 4rem 2rem 2rem;
 }
+
 `;
 
 export const WhatDiv = styled.div`
@@ -56,7 +57,7 @@ justify-content: center;
 margin: 3rem 4rem 0;
 opacity: 0.8;
 @media screen and (max-width: 1024px) {
-  margin: 2rem 4rem 1.25rem;
+  margin: 5rem 4rem 1.25rem;
 }
 @media screen and (max-width: 768px) {
   margin: 0 2rem;
@@ -71,10 +72,10 @@ font-size: clamp(1.25rem, 2.5vw, 3rem);
 text-transform: none;
 text-align: left;
 padding: 3rem;
-line-height: 2rem;
+line-height: 3rem;
 @media screen and (max-width: 1024px) {
   padding: 2rem;
-  line-height: 2.25rem;
+  line-height: 2.5rem;
 }
 @media screen and (max-width: 480px) {
   padding: 1rem;
