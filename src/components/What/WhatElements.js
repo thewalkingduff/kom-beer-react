@@ -48,13 +48,13 @@ export const WhatItems = styled.div`
 
 export const WhatH1 = styled.h1`
 font-size: clamp(2rem, 10vw, 7rem);
-  margin: 10rem 2rem 5rem;
+  margin: 17rem 2rem 7rem;
   letter-spacing: 3px;
 /* font-size: 5rem; */
   color: #19FFD1;
-  padding-top: 2rem;
+  padding: 2rem;
   @media screen and (max-width: 1024px) {
-  margin: 12rem 2rem 10rem;
+  margin: 12rem 2rem 5rem;
 }
   @media screen and (max-width: 768px) {
   margin: 8rem 2rem 5rem;
