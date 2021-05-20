@@ -39,6 +39,7 @@ padding: 0.6rem 3rem;
 border: none;
 background: #19FFD1;
 color: #AA09B3;
+font-weight: 900;
 text-transform: uppercase;
 transition: 0.2s ease-out;
 
