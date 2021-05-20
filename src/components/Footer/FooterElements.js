@@ -49,7 +49,7 @@ export const SocialLogo = styled(Link)`
   }
 
   @media screen and (max-width: 480px){
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
 

@@ -3,18 +3,27 @@ import WhatImg from '../../images/fruit-bucha.png';
 import BenefitImg from '../../images/benefits.png'
 
 export const WhatContainer = styled.div`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-    url(${WhatImg});
-  height: 100vh; 
+/* background: #AA09B3; */
+  /* height: 100px;   */
+  /* background-position: center;
+  background-size: cover;  */
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url(${WhatImg}); 
   background-position: center;
-  background-size: cover; 
- 
+  background-size: contain; */
+
 `;
 
 export const WhatContent = styled.div`
  /* height: calc(100vh - 80px); */
   /* max-height: 100%; */
   /* padding: 0rem calc((100vw - 1300px) / 2);  */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url(${WhatImg});
+  min-height: fit-content; 
+  background-position: center;
+  background-size: cover; 
+  overflow: hidden;
   ;`
 
 export const WhatItems = styled.div`
@@ -38,20 +47,20 @@ export const WhatItems = styled.div`
 `;
 
 export const WhatH1 = styled.h1`
-font-size: clamp(2rem, 10vw, 10rem);
-  margin: 10rem 4rem 5rem;
+font-size: clamp(2rem, 10vw, 7rem);
+  margin: 10rem 2rem 5rem;
   letter-spacing: 3px;
 /* font-size: 5rem; */
   color: #19FFD1;
-  /* padding: 0 1.5rem; */
+  padding-top: 2rem;
   @media screen and (max-width: 1024px) {
-  margin: 10rem 2rem 5rem;
+  margin: 7rem 2rem;
 }
   @media screen and (max-width: 768px) {
   margin: 8rem 2rem 5rem;
 }
   @media screen and (max-width: 480px) {
-  margin: 12rem 2rem 0;
+  margin: 7rem 1rem 0;
 }
 
 `;
@@ -60,19 +69,19 @@ export const WhatDiv = styled.div`
 background: #AA09B3;
 display: flex;
 justify-content: center;
-margin: 25rem 4rem 0;
-opacity: 0.8;
+margin: 10rem 4rem 0;
+opacity: 0.7;
 @media screen and (max-width: 1200px) {
-  margin: 30rem 4rem 0;
+  margin: 7rem 4rem;
 }
 @media screen and (max-width: 1024px) {
-  margin: 17rem 4rem 0;
+  margin: 8rem 3rem 4rem;
 }
 @media screen and (max-width: 768px) {
-  margin: 10rem 2rem 0;
+  margin: 4rem 2rem 0;
 }
 @media screen and (max-width: 480px) {
-  margin: 20rem 1rem 0;
+  margin: 3rem 1.5rem 0;
 }
 `;
 
@@ -83,12 +92,13 @@ text-align: left;
 padding: 3rem;
 line-height: 3rem;
 @media screen and (max-width: 1024px) {
-  padding: 2rem;
+  padding: 1.5rem;
   line-height: 2.5rem;
 }
 @media screen and (max-width: 480px) {
-  padding: 1rem;
-  line-height: 1.75rem;
+  padding: .50rem;
+  line-height: 1.5rem;
+  text-align: center;
 }
 `
 
@@ -98,21 +108,22 @@ height: 100vh;
   background-position: center;
   background-size: contain;
 background-repeat: no-repeat;
-margin: 20rem 4rem;
+margin: 10rem 4rem;
+padding: 0;
+
 @media screen and (max-width: 1200px) {
-  margin: 15rem 4rem;
-  height: 100vh; 
+  margin: 7rem 4rem;
 }
 @media screen and (max-width: 1024px) {
-  margin: 10rem 4rem 0;
-  height: 100vh; 
+  margin: 1rem 3rem;
 }
 @media screen and (max-width: 768px) {
-  margin: 7rem 4rem 0;
-  height: 100vh;
+  margin: 3rem 2rem; 
+  height: 75vh;
 }
 @media screen and (max-width: 480px) {
-  margin: 1rem;
-  height: 100vh;
+  margin: 2rem 1.5rem;
+  height: 50vh;
+
 }
 `

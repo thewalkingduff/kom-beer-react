@@ -5,7 +5,7 @@ import LogoImg from '../../images/logo.png';
 
 export const Nav = styled.nav`
 background: transparent;
-height: 80px;
+height: 0vh;
 display: flex;
 justify-content: space-between;
 font-weight: 700;
