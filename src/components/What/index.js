@@ -5,7 +5,7 @@ import {
     WhatContainer, WhatContent, WhatDiv, WhatH1, WhatItems, WhatP
 } from './WhatElements';
 import Footer from '../Footer';
-import Navbar from '../Navbar';
+import Navbar2 from '../Navbar2';
 import Sidebar from '../Sidebar';
 
 const What = () => {
@@ -17,7 +17,7 @@ const What = () => {
     return (
         <WhatContainer>
             <GlobalStyle />
-            <Navbar toggle={toggle} />
+            <Navbar2 toggle={toggle} />
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <WhatContent>
                 <WhatItems>

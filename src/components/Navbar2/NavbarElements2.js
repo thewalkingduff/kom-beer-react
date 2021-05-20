@@ -9,18 +9,6 @@ height: 0vh;
 display: flex;
 justify-content: space-between;
 font-weight: 700;
-
-@media screen and (max-width: 812px) {
-  height: 30vh;   
-}
-@media screen and (max-width: 768px) {
-  height: 25vh;
-  /* margin: 0 .5rem; */
-}
-@media screen and (max-width: 480px) {
-    height: 15vh;
-    /* margin: 1.50;   */
-}
 `;
 
 export const NavLogoLink = styled(Link)`
@@ -42,48 +30,7 @@ background-image: url(${LogoImg});
     width: 50px; */
 }
 `
-
-// export const NavLink = styled(Link)`
-// color: #FAFAF0;
-// margin-left: 1rem;
-// font-size: 2rem;
-// font-size: clamp(.95rem, 3vw, 2rem);
-// display: flex;
-// align-items: center;
-// text-decoration: none;
-// cursor: pointer;
-
-// @media screen and (max-width: 768px) {
-//     display: block;
-// position: absolute;
-// top: 0;
-// left: 0;
-// margin: 1rem 1rem 0;
-// padding: 0 10rem 0 0;
-// }
-// `;
-
-// export const NavIcon = styled.div`
-// display: block;
-// position: absolute;
-// font-size: clamp(1rem, 5vw, 2rem);
-// top: 0;
-// right: 0;
-// cursor: pointer;
-// color: #FAFAF0;
-
-// p {
-//     transform: translate(-175%, 100%);
-//     font-weight: bold;
-
-//     @media screen and (max-width: 768px) {
-// display: none;
-// }
-// }
-// `;
-
 export const Bars = styled(TiBeer)`
-/* font-size: 2rem; */
 display: block;
 position: absolute;
 top: 0;

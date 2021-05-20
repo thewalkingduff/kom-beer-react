@@ -26,15 +26,22 @@ export const HeroItems = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  font-size: clamp(2.5rem, 10vw, 5rem);
-  margin-bottom: 1rem;
+  font-size: clamp(2rem, 10vw, 5rem);
+  margin: 1rem 1rem;
   box-shadow: 3px 5px #ffc500;
   letter-spacing: 3px;
+  @media screen and (max-width: 1024px) {
+    font-size: 3.5rem;
+  }
+  @media screen and (max-width: 653px) {
+    font-size: 2.5rem;
+  }
+
 `;
 
 export const HeroP = styled.p`
   font-size: clamp(2rem, 2.5vw, 3rem);
-  margin-bottom: 2rem;
+  margin: 1rem;
 `;
 
 export const HeroBtn = styled.button`
@@ -50,4 +57,5 @@ export const HeroBtn = styled.button`
     cursor: pointer;
     color: #000;
   }
+
 `;

@@ -15,6 +15,10 @@ color: #FAFAF0;
 text-align: center;
 padding: 0 1rem;
 
+@media screen and (max-width: 569px) {
+    height: 150%;
+}
+
 h1 {
     font-size: clamp(3rem, 5vw, 5rem);
     padding: 1rem 0;
