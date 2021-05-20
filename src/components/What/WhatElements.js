@@ -54,7 +54,7 @@ font-size: clamp(2rem, 10vw, 7rem);
   color: #19FFD1;
   padding-top: 2rem;
   @media screen and (max-width: 1024px) {
-  margin: 7rem 2rem;
+  margin: 12rem 2rem 10rem;
 }
   @media screen and (max-width: 768px) {
   margin: 8rem 2rem 5rem;
@@ -115,11 +115,11 @@ padding: 0;
   margin: 7rem 4rem;
 }
 @media screen and (max-width: 1024px) {
-  margin: 1rem 3rem;
+  margin: 4rem 3rem;
+  height: 75vh;
 }
 @media screen and (max-width: 768px) {
   margin: 3rem 2rem; 
-  height: 75vh;
 }
 @media screen and (max-width: 480px) {
   margin: 2rem 1.5rem;
